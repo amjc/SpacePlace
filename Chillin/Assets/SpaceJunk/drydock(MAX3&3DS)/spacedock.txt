@@ -1,0 +1,57 @@
+Please visit SCIFI 3D <www.theforce.net/scifi3d/>
+for rules governing use, display of credit, and copyright information.
+
+
+
+README!
+
+Desc:
+--------
+
+
+Spacedock mesh by Nico Weigand
+All textures and meshes copyrighted by Nico Weigand
+july 2001, Jena, Germany
+
+
+
+download max version-only at:
+http://www.3dmaxforum.de
+(for download from other sites you can make a link
+to the mesh-section of www.3dmaxforum.de)
+
+
+download-hosting for any conversion of this mesh
+only allowed for www.scifi-art.com or www.scifi-meshes.com
+
+email:
+nico@is55.de or nico@3dmaxforum.de
+
+
+
+Distribution of this zip file only including this readme.txt file.
+You may use and modify this mesh. You are not allowed to sell this 
+mesh or use it in any commercial way. All contents of this zip-file 
+copyrighted by Nico Weigand under german law.
+
+
+
+StarTrek / original design and all related items copyrighted 
+by Paramount Comm., a VIACOM company.
+
+july/21/2000, Jena, Germany
+
+
+
+Addenum: Lightwave Conversion by Matthew Christou
+Email: mchristou@bigpond.com.au
+Version 1.00
+
+Distribution of this mesh is limited to the Lightwave Group (www.lwg3d.com)
+
+
+All Work Copyright 2001 Nico Wiegand
+
+You will need to use the passwd "lightwave" on the zip file...
+
+
