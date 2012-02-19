@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Audio_chimes.js" />
      <Compile Include="Assets\Scripts\Fly.js" />
      <Compile Include="Assets\Scripts\MeshDistort.js" />
      <Compile Include="Assets\Scripts\MouseLookPhysics.js" />
