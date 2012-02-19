@@ -3,6 +3,8 @@ var zeroAc: Vector3;
 var start = false;
 
 public var scaling : float = 1;
+public var breakingPower : float = 3;
+
 
 // Readings from accelerometer
 private var accelerometer : Vector3;
@@ -39,7 +41,7 @@ function Update () {
 	trailingAvg = trailingSum / 10.0;
 	Debug.Log(trailingAvg);
 	var newSpot = LowPassFilterAccelerometer();
-	rigidbody.AddRelativeForce(newSpot * scaling);
+  // rigidbody.AddRelativeForce(newSpot * scaling);
 }
 
 function OSCMessageReceived(message : OSC.NET.OSCMessage){
@@ -48,7 +50,9 @@ function OSCMessageReceived(message : OSC.NET.OSCMessage){
 	trailingReadings[trailingIndex] = accelerometer - previousAccelerometer;
 
 	if(message.Values[3] == 1) {
-		rigidbody.velocity = Vector3.zero;
+		rigidbody.drag = breakingPower;
+	} else {
+	  rigidbody.drag = 0;
 	}
 
 	previousAccelerometer = accelerometer;
