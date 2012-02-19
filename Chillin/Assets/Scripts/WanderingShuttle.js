@@ -7,9 +7,9 @@ public var radius : float = 2000.0;
 // Probability with which the craft will diverge from its path.
 public var wanderFactor : float = 0.3;
 // Top velocity
-public var maxSpeed : float = 2;
+public var maxSpeed : float = 10;
 // Top acceleration
-public var maxForce : float = 1;
+public var maxForce : float = 3;
 // Define drift as a percentage of the acceleration.
 // This adds variety to the movement, but not so much as
 // to derail staying on path.
@@ -31,7 +31,7 @@ function seek(seekTarget : Vector3) {
 
 	var wanderVector = (Vector3(noise.Noise(Time.time), noise.Noise(Time.time), noise.Noise(Time.time)) - Vector3(.5, .5, .5)) * maxForce * drift;
 	var steer = Vector3(desired.x, desired.y, desired.z) + wanderVector - rigidbody.velocity;
-	Debug.Log(destination + " :: " + difference + " : " + difference.magnitude + " : " + steer);
+  // Debug.Log(destination + " :: " + difference + " : " + difference.magnitude + " : " + steer);
 	return Vector3.ClampMagnitude(steer, maxForce);
 }
 

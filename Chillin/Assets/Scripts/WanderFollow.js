@@ -29,7 +29,7 @@ function seek(seekTarget : Vector3) {
 
 	var wanderVector = (Vector3(noise.Noise(Time.time), noise.Noise(Time.time), noise.Noise(Time.time)) - Vector3(.5, .5, .5)) * maxforce * drift;
 	var steer = Vector3(desired.x, desired.y, desired.z) + wanderVector - rigidbody.velocity;
-  Debug.Log( "EMU::::::: " + difference + " : " + difference.magnitude + " : " + steer);
+  // Debug.Log( "EMU::::::: " + difference + " : " + difference.magnitude + " : " + steer);
 	return Vector3.ClampMagnitude(steer, maxforce);
 }
 

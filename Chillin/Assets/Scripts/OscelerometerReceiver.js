@@ -3,7 +3,7 @@ var zeroAc: Vector3;
 var start = false;
 
 public var scaling : float = 1;
-public var breakingPower : float = 3;
+public var breakingPower : float = 0.333333333;
 
 
 // Readings from accelerometer
