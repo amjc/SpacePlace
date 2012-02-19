@@ -8,10 +8,10 @@ function Update() {
 	forwardMovement = Input.GetAxis("Vertical");
  
 	if (horMovement) {
-		transform.Translate(transform.right * horMovement * Time.deltaTime * speed);
+		rigidbody.AddRelativeForce(Vector3.right * horMovement * Time.deltaTime * speed);
 	} 
  
 	if (forwardMovement) {
-		transform.Translate(transform.forward * forwardMovement * Time.deltaTime * speed);
+		rigidbody.AddRelativeForce(Vector3.forward * forwardMovement * Time.deltaTime * speed);
 	}
 }
