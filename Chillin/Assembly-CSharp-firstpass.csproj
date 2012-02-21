@@ -52,6 +52,19 @@
      <Compile Include="Assets\Plugins\Perlin.cs" />
      <Compile Include="Assets\Plugins\UnityOSC\UnityOSCReceiver.cs" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\Detonator.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Standard Assets\Detonator\System\DetonatorSpray.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
@@ -62,6 +75,7 @@
      <None Include="Assets\SpaceJunk\drydock(MAX3&amp;3DS)\spacedock.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
      <None Include="Assets\SpaceJunk\shuttle15(MAX&amp;3D)\readme.txt" />
      <None Include="Assets\SpaceJunk\ISS models 2011\README.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
@@ -71,6 +85,9 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\skybox\nebula-collision-yellow\readme.txt" />
+ <Reference Include="Assets\Plugins\UniWii">
+ <HintPath>Assets\Plugins\UniWii.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

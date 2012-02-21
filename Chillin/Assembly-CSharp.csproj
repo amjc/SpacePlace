@@ -53,6 +53,7 @@
      <None Include="Assets\SpaceJunk\drydock(MAX3&amp;3DS)\spacedock.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
      <None Include="Assets\SpaceJunk\shuttle15(MAX&amp;3D)\readme.txt" />
      <None Include="Assets\SpaceJunk\ISS models 2011\README.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
@@ -62,6 +63,9 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\skybox\nebula-collision-yellow\readme.txt" />
+ <Reference Include="Assets\Plugins\UniWii">
+ <HintPath>Assets\Plugins\UniWii.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
