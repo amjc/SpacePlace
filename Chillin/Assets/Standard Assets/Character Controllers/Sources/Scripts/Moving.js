@@ -1,5 +1,5 @@
 var speed : float = 150.0;
- 
+
 function Update() {
  
 	//is the user pressing left or right (or "a &amp; "d") on the keyboard?
@@ -14,4 +14,4 @@ function Update() {
 	if (forwardMovement) {
 		rigidbody.AddRelativeForce(Vector3.forward * forwardMovement * Time.deltaTime * speed);
 	}
-}
+ }
